@@ -17,6 +17,26 @@
   or (xampp)
   `localhost/ping-koneksi.php/index.php`
 
+## CONFIG/ADD LIST
+
+- edit file index.php to add/edit/remove host list
+
+```php
+// ************* list ip/host.begin **************
+$hosts = [];
+$hosts['AP'] = '192.168.1.1';
+$hosts['GOOGLE'] = 'google.com';
+$hosts['YOUTUBE'] = 'youtube.com';
+$hosts['FACEBOOK'] = 'facebook.com';
+$hosts['INSTAGRAM'] = 'instagram.com';
+$hosts['TWITTER'] = 'twitter.com';
+$hosts['DETIK'] = 'detik.com';
+// ************* list ip/host.end ****************
+```
+
+- save it
+- and then reload browser
+
 ## USING IT
 
 - Play Ping : for interval ping (10s default)
