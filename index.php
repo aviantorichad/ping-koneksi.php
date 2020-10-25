@@ -31,7 +31,7 @@ function Ping($host, $timeout = 10)
     $com = 'ping -n -w ' . $timeout . ' -c 1 ' . escapeshellarg($host);
   }
   if ($os == "win") {
-    $com = 'ping -w ' . $timeout . ' -n 1 ' . escapeshellarg($host);
+    $com = 'ping -w ' . $timeout . ' -n 2 ' . escapeshellarg($host);
   }
 
   $exitcode = 0;
